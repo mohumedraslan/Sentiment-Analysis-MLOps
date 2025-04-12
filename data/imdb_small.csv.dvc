@@ -1,0 +1,5 @@
+outs:
+- md5: 62acf68c544d136cc6675df497b6a01f
+  size: 33347168
+  hash: md5
+  path: imdb_small.csv
