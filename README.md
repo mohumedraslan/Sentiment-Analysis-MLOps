@@ -18,5 +18,5 @@ A beginner-friendly MLOps project for sentiment analysis, built with Python, DVC
 ## Setup
 1. Clone the repo:
    ```bash
-   git clone https://github.com/moraslan202/Sentiment-Analysis-MLOps.git
+   git clone https://github.com/mohumedraslan/Sentiment-Analysis-MLOps.git
    cd Sentiment-Analysis-MLOps
