@@ -5,3 +5,4 @@ models/*
 mlops_venv/ 
 __pycache__/ 
 *.pyc 
+mlruns/ 
