@@ -1,1 +1,5 @@
-ECHO is on.
+pandas
+scikit-learn
+nltk
+fastapi
+uvicorn
