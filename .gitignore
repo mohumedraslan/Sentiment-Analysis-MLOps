@@ -1,1 +1,7 @@
-data/ 
+data/* 
+!data/*.dvc 
+models/* 
+!models/*.dvc 
+mlops_venv/ 
+__pycache__/ 
+*.pyc 
