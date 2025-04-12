@@ -1,0 +1,37 @@
+body {
+  background-color: #f5f5f5 !important;
+}
+.swagger-ui {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+.swagger-ui .scheme-container {
+  background-color: #ffffff !important;
+}
+.swagger-ui .opblock {
+  background-color: #f0f0f0 !important;
+  border: 1px solid #ddd !important;
+}
+.swagger-ui .opblock-summary {
+  background-color: #e0e0e0 !important;
+}
+.swagger-ui .opblock-body {
+  background-color: #ffffff !important;
+}
+.swagger-ui textarea {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border: 2px solid #007bff !important;
+  font-size: 16px !important;
+  padding: 10px !important;
+  min-height: 100px !important;
+}
+.swagger-ui input[type="text"] {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border: 2px solid #007bff !important;
+}
+.swagger-ui .btn {
+  background-color: #007bff !important;
+  color: #ffffff !important;
+}
