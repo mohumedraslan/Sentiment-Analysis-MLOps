@@ -4,4 +4,3 @@ nltk
 fastapi
 uvicorn
 streamlit
-requests
