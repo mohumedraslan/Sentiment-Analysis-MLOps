@@ -2,4 +2,4 @@ pandas
 scikit-learn
 nltk
 fastapi
-uvicorn
+uvicornstreamlit 
