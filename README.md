@@ -15,6 +15,10 @@ A beginner-friendly MLOps project for sentiment analysis, built with Python, DVC
 - FastAPI for API serving
 - Docker for containerization
 
+Contact
+- GitHub: [mohumedraslan](https://github.com/mohumedraslan)
+- LinkedIn: [mohumedraslan](https://www.linkedin.com/in/mohumed-raslan/)
+- Email: mohumedraslan@gmail.com
 ## Setup
 1. Clone the repo:
    ```bash
