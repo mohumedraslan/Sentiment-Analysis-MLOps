@@ -4,3 +4,4 @@ nltk
 fastapi
 uvicorn
 streamlit
+transformers
