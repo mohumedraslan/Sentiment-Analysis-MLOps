@@ -1,0 +1,29 @@
+name: ML CI
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install pytest great-expectations deepchecks mlflow
+      - name: Run code linting
+        run: pylint src/
+      - name: Run unit tests
+        run: pytest tests/
+      - name: Validate data
+        run: great_expectations checkpoint run sentiment_data
+      - name: Test model performance
+        run: deepchecks --suite full_suite run
+      - name: Log metrics to MLflow
+        run: mlflow run . --env-manager=local
